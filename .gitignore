@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Screenshots et debug
+debug_screenshots/
+*.png
+/tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environnement
+.env
+.env.local
+
+# Secrets (si tu en ajoutes plus tard)
+secrets/
+credentials/
+*.pem
+*.key
+
+# Données temporaires
+*.tmp
+*.cache
+
+# Backups
+backup_*/
+*.bak
+
